@@ -1,0 +1,124 @@
+{
+  "result": [
+    {
+      "update_id": 743669823,
+      "message": {
+        "message_id": 1,
+        "entities": [
+          {
+            "offset": 0,
+            "type": "bot_command",
+            "length": 6
+          }
+        ],
+        "from": {
+          "username": "dearAvi",
+          "id": 60002164,
+          "last_name": "Sunny",
+          "first_name": "Avi"
+        },
+        "text": "/start",
+        "chat": {
+          "username": "dearAvi",
+          "id": 60002164,
+          "last_name": "Sunny",
+          "first_name": "Avi",
+          "type": "private"
+        },
+        "date": 1486019173
+      }
+    },
+    {
+      "update_id": 743669824,
+      "message": {
+        "message_id": 2,
+        "from": {
+          "username": "dearAvi",
+          "id": 60002164,
+          "last_name": "Sunny",
+          "first_name": "Avi"
+        },
+        "date": 1486019401,
+        "chat": {
+          "username": "dearAvi",
+          "id": 60002164,
+          "last_name": "Sunny",
+          "first_name": "Avi",
+          "type": "private"
+        },
+        "text": "test"
+      }
+    },
+    {
+      "update_id": 743669825,
+      "message": {
+        "message_id": 3,
+        "from": {
+          "username": "dearAvi",
+          "id": 60002164,
+          "last_name": "Sunny",
+          "first_name": "Avi"
+        },
+        "date": 1486019439,
+        "chat": {
+          "username": "dearAvi",
+          "id": 60002164,
+          "last_name": "Sunny",
+          "first_name": "Avi",
+          "type": "private"
+        },
+        "text": "test2"
+      }
+    },
+    {
+      "update_id": 743669826,
+      "message": {
+        "message_id": 5,
+        "entities": [
+          {
+            "offset": 0,
+            "type": "bot_command",
+            "length": 6
+          }
+        ],
+        "from": {
+          "username": "dearAvi",
+          "id": 60002164,
+          "last_name": "Sunny",
+          "first_name": "Avi"
+        },
+        "text": "/start",
+        "chat": {
+          "username": "dearAvi",
+          "id": 60002164,
+          "last_name": "Sunny",
+          "first_name": "Avi",
+          "type": "private"
+        },
+        "date": 1486031697
+      }
+    },
+    {
+      "update_id": 743669827,
+      "message": {
+        "message_id": 7,
+        "from": {
+          "username": "dearAvi",
+          "id": 60002164,
+          "last_name": "Sunny",
+          "first_name": "Avi"
+        },
+        "date": 1486099720,
+        "chat": {
+          "username": "dearAvi",
+          "id": 60002164,
+          "last_name": "Sunny",
+          "first_name": "Avi",
+          "type": "private"
+        },
+        "text": "привет"
+      }
+    }
+  ],
+  "ok": true
+}
