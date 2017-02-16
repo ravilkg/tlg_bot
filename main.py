@@ -1,4 +1,5 @@
-import bot
+from bot import get_message
+from bot import send_message
 
 def main():
     while True:
