@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import requests
 import misc
 from update import get_updates
