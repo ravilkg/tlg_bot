@@ -1,8 +1,8 @@
 import requests
 import misc
+from update import get_updates
 from yobit import get_btc
 from time import sleep
-#import json
 
 token = misc.token
 
@@ -13,10 +13,10 @@ last_update_id = 0
 
 
 
-def get_updates():
-    url = URL + 'getupdates'
-    r = requests.get(url)
-    return r.json()
+# def get_updates():
+#     url = URL + 'getupdates'
+#     r = requests.get(url)
+#     return r.json()
 
 def get_message():
     # отвечать только на новые сообщения
@@ -49,9 +49,6 @@ def send_message(chat_id, text = 'Wait a second please...'):
 
 
 def main():
-    #d = get_updates()
-    #with open('updates.json', 'w') as file:
-    #    json.dump(d, file, indent=2, ensure_ascii=False)
     while True:
         answer = get_message()
 
