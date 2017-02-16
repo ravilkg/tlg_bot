@@ -1,5 +1,6 @@
 from bot import get_message
 from bot import send_message
+from  bot import get_btc
 
 def main():
     while True:
